@@ -1,0 +1,66 @@
+.musics__table {
+    width: 60%;
+    background-color: #FFF9FA;
+    border-radius: 30px 30px 5px 5px;
+    /* box-shadow: 0 2px 2px #ddd; */
+    text-align: center;
+    overflow: hidden;
+    margin: 1rem auto;
+    border-collapse: collapse;
+}
+
+.musics__table th,
+.musics__table td {
+    border-bottom: 2px solid #eee;
+    box-shadow: 0 -4px 8px #eee;
+}
+
+.musics__table thead tr {
+    height: 60px;
+
+}
+
+.musics__table tr {
+    height: 50px;
+}
+
+.musics__table td:first-child,
+.musics__table th:first-child {
+    text-align: right;
+    padding: 0 1rem;
+}
+
+.musics__table td:nth-child(odd) {
+    background-color: #FFE3E7;
+}
+
+.musics__table th:nth-child(even) {
+    background-color: #FFE3E7;
+}
+
+.musics__table tr td:nth-child(2),
+.musics__table tr th:nth-child(2) {
+    text-align: left;
+    padding: 0 1rem;
+}
+
+.musics__table-header {
+    color: #666;
+}
+
+.musics__table-no {
+    width: 10%;
+}
+
+
+.musics__table-time {
+    width: 15%;
+}
+
+.musics__table-actions {
+    width: 20%;
+}
+
+.time-icon {
+    height: 16px;
+}

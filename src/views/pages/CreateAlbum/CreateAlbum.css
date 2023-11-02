@@ -1,0 +1,161 @@
+.createAlbum__card {
+    border-radius: 30px;
+    box-shadow: 0 4px 10px #706b6c;
+    min-height: 100vh;
+    width: 70%;
+    margin: 1rem auto;
+    background-color: #FFF9FA;
+}
+
+.createAlbum__form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 100%;
+}
+
+.createAlbum__form-header {
+    margin: 1rem auto;
+    color: #888;
+    letter-spacing: 1px;
+}
+
+
+/* ===================== Form input fields ========================= */
+.createAlbum__form-inputs {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    margin: 1rem auto;
+}
+
+.createAlbum__form-photo {
+    margin: 1rem 4rem;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    border: 1px solid #888;
+    position: relative;
+}
+
+.createAlbum__form-photo .addImage__icon {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.createAlbum__form-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.createAlbum__form-content label {
+    font-size: 1.5rem;
+}
+
+.createAlbum__form-content label input {
+    margin: 0.5rem 1rem;
+    padding: 4px 8px;
+    width: 300px;
+    color: #706b6c;
+    font-family: 'Paytone One';
+    font-size: 1.125rem;
+}
+
+/* ================== Form table ===================== */
+.createAlbum__table {
+    margin: 1rem auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px #bbb;
+    width: 80%;
+    text-align: center;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+.createAlbum__table th,
+.createAlbum__table td {
+    border: 2px solid #f9f0f1;
+    padding: 0.5rem;
+}
+
+.createAlbum__table-header td {
+    text-align: left;
+    border: none !important;
+}
+
+.createAlbum__table-label {
+    font-size: 1.75rem;
+}
+
+.createAlbum__table-label img {
+    height: 30px;
+    padding: 1rem 1rem 0 1rem;
+}
+
+.createAlbum__table-label-text {
+    position: relative;
+    top: -4px;
+}
+
+.createAlbum__table th {
+    color: #706b6c;
+}
+
+.createAlbum__table td:nth-child(2),
+.createAlbum__table th:nth-child(2) {
+    text-align: left;
+}
+
+.createAlbum__table-no {
+    width: 10%;
+}
+
+.createAlbum__table-time {
+    width: 20%;
+}
+
+.createAlbum__table-actions {
+    width: 30%;
+}
+
+
+/* ============ Form Buttons =============== */
+.createAlbum__form-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem 8rem;
+    font-size: 1.25rem;
+}
+
+.createAlbum__form-createBtn {
+    background-color: #B72025;
+    color: white;
+    padding: 0.625rem 2.25rem;
+    border-radius: 1rem;
+    letter-spacing: 2px;
+    margin: .5rem 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
+}
+
+.createAlbum__form-cancelBtn {
+    color: #B72025;
+    margin: 0.5rem 1.5rem;
+}
+
+.createAlbum__form-createBtn:hover,
+.createAlbum__form-cancelBtn:hover {
+    cursor: pointer;
+}
+
+.createAlbum__form-createBtn:active,
+.createAlbum__form-cancelBtn:active {
+    box-shadow: none;
+    transform: scale(0.95);
+    transition: all .3s;
+}
+

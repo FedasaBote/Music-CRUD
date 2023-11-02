@@ -1,0 +1,114 @@
+.blurred-overlay {
+  position: fixed;
+  overflow: scroll;
+  top: 0;
+  left: 0;
+  min-height: 120vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
+
+.addMusic__form {
+  width: 400px;
+  min-height: 500px;
+  margin: 2rem auto;
+  background-color: #f0e5e6;
+  border-radius: 1rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+/* ============= Music Cover Image ====================== */
+.addMusic__cover {
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 1rem;
+  transform: translate(-50%, 0);
+}
+
+.addMusic__title {
+  font-size: 20px;
+  color: #666;
+  position: absolute;
+  top: 110px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  letter-spacing: 1px;
+}
+
+.addMusic__form-label {
+  font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.addMusic__form-input {
+  font-size: 1rem;
+  width: 350px;
+  color: #555;
+  padding: 0.25rem;
+  font-family: "Paytone One";
+}
+
+#addMusic__title {
+  position: absolute;
+  top: 180px;
+  left: 1rem;
+}
+
+#addMusic__duration {
+  position: absolute;
+  top: 260px;
+  left: 1rem;
+}
+
+#addMusic__album {
+  position: absolute;
+  top: 340px;
+  left: 1rem;
+}
+
+#albumsList {
+  font-size: 1rem;
+  width: 360px;
+  color: #555;
+  padding: 0.25rem;
+  font-family: "Paytone One";
+}
+
+/* ================== Buttons ======================== */
+#addMusic__btns {
+  position: absolute;
+  bottom: 2rem;
+  right: 1rem;
+  font-size: 20px;
+  display: flex;
+}
+
+.addMusic___addButton {
+  background-color: #b72025;
+  color: white;
+  padding: 0.5rem 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 2px 4px #555;
+}
+
+.addMusic___clearButton {
+  color: #b72025;
+  padding: 0.5rem 2rem;
+}
+
+.addMusic___addButton:hover,
+.addMusic___clearButton:hover {
+  cursor: pointer;
+}
+
+.addMusic___addButton:active,
+.addMusic___clearButton:active {
+  transform: scale(0.95);
+  transition: all 0.3s;
+  box-shadow: none;
+}

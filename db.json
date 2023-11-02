@@ -1,0 +1,63 @@
+{
+  "songs": [
+    {
+      "name": "Abugida",
+      "artist": "",
+      "albumId": 4,
+      "lengthtime": "05:00",
+      "id": 11
+    },
+    {
+      "name": "Baygermish",
+      "artist": "",
+      "albumId": 4,
+      "lengthtime": "04:00",
+      "id": 12
+    },
+    {
+      "name": "Aynen",
+      "artist": "",
+      "albumId": 4,
+      "lengthtime": "03:00",
+      "id": 13
+    },
+    {
+      "name": "shemendefer",
+      "artist": "",
+      "lengthtime": "05:00",
+      "id": 14
+    },
+    {
+      "name": "shemendefer",
+      "artist": "",
+      "lengthtime": "05:00",
+      "id": 15
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "name": "Fikir",
+      "artist": "Fedasa",
+      "year": 2001
+    },
+    {
+      "id": 2,
+      "name": "Tokkumma",
+      "artist": "Addisu",
+      "year": 2002
+    },
+    {
+      "name": "Essa Jirta",
+      "artist": "Hachalu Hundessa",
+      "year": "2006",
+      "id": 3
+    },
+    {
+      "name": "Abugida",
+      "artist": "Tewodros Kassahun",
+      "year": "1995",
+      "id": 4
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+.albums__header {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(#FFEDEF, white);
+    /* align-items: center; */
+    /* height: 100vh; */
+}
+
+.albums__header-label,
+.albums__add-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.albums__header-label {
+    margin-left: 100px;
+}
+
+.albums__header--icon {
+    position: relative;
+    top: 5px;
+}
+
+.albums__header--text {
+    padding: 10px;
+}
+
+.albums__add-btn {
+    height: 50px;
+    width: 180px;
+    background-color: #e46700;
+    box-sizing: border-box;
+    /* padding: 10px; */
+    margin: 10px;
+    border-radius: 20px;
+    color: white;
+    margin-right: 100px;
+}
+
+.albums__add-btn--text {
+    padding: 10px 10px 10px 0;
+    position: relative;
+    top: -2px;
+}
+
+.icon img {
+    height: 24px;
+    padding: 10px;
+}
+
+.albums__card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
